@@ -11,7 +11,7 @@ function App() {
     <nav className='mx-auto p-4 bg-amber-400'>
       <div className='container flex items-center justify-between'>
         <a href='#' className='focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 lg:absolute lg:left-1/2 lg:top-9 lg:-translate-x-1/2 z-50 hover:opacity-75 transition-opacity' aria-label='Go to Homepage'>
-          <img src = 'src\assets\logo.svg' alt = 'Home Smart Logo' className='w-48 md:w-62 lg:w-72'/>
+          <img src = 'public\assets\logo.svg' alt = 'Home Smart Logo' className='w-48 md:w-62 lg:w-72'/>
         </a>
         <button id='menu' className='focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-slate-700 hover:text-slate-400 transition-colors ' onClick={()=> setIsVisible(!isVisible)}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 md:hidden">
@@ -29,8 +29,8 @@ function App() {
       <div className='absolute inset-0 bottom-8 md:bottom-24 lg:bottom-32 bg-gradient-to-b from-amber-400 to-amber-700 -z-10'></div>
       <div className="container mx-auto grid grid-rows-1 
       place-items-end px-2">
-        <img src='src\assets\couch.png' alt = 'couch' className='row-start-1 row-end-2 col-start-1 col-end-2 mx-auto' />
-        <img src='src\assets\app.svg' alt ='app' className='row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:64 lg:72'/>
+        <img src='public\assets\couch.png' alt = 'couch' className='row-start-1 row-end-2 col-start-1 col-end-2 mx-auto' />
+        <img src='public\assets\app.svg' alt ='app' className='row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:64 lg:72'/>
       </div>
     </header>
     <main className='grid grid-cols gap-12 sm:gap-16 md:gap-24 lg:gap-32 px-8 overflow-hidden'></main>
@@ -42,7 +42,7 @@ function App() {
     </a>
     <section className='flex flex-col md    
     lg:flex-row flex-wrap md:justify-around gap-3  md:items-center mx-auto' >
-      <img src='src\assets\dots.svg' className='hidden md:block absolute mt-1/2 h-[50px] -translate-y-1/2 -left-24 lg:-left-10' aria-hidden='true' alt='dots'/>
+      <img src='public\assets\dots.svg' className='hidden md:block absolute mt-1/2 h-[50px] -translate-y-1/2 -left-24 lg:-left-10' aria-hidden='true' alt='dots'/>
       <div className='flex flex-col items-center gap-2'>
         <span className='border-4 p-3 md:p-2 rounded-full border-amber-400 '><svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5"     stroke="currentColor" className="w-12 h-12">
          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
@@ -87,7 +87,7 @@ function App() {
      <section>
       <div className='flex flex-col md:flex-row-reverse relative gap-6 mt-10'>
       <div className='mr-6'>        
-        <img src='src\assets\table.png' alt='table'/>             
+        <img src='public\assets\table.png' alt='table'/>             
       </div>
       <div className='flex flex-col text-slate-700 justify-start md:justify-center gap-4 leading-wider tracking-wider ml-4'>
         <h2 className='font-bold text-xl'>Relax, you're home!</h2>
@@ -101,7 +101,7 @@ function App() {
      </section>     
      <div className='flex flex-col md:flex-row gap-5 md:justify-around container mx-auto'>
       <div className='flex flex-col gap-8 w-2/3 md:w-2/5'>
-        <img src='src\assets\lamp.png' alt='lamp' className='flex items-center mx-auto drop-shadow-3xl mt-4'/>
+        <img src='public\assets\lamp.png' alt='lamp' className='flex items-center mx-auto drop-shadow-3xl mt-4'/>
         <a href='#' className='flex gap-2 items-center mx-auto py-2 px-6 bg-amber-500 text-slate-900 font-bold justify-center my-8 focus:outline-none w-2/3 focus-visible:ring-4 shadow-2xl hover:shadow-none transition-shadow ring-slate-400 dark:ring-offset-amber-500 rounded-lg ring-offset-4 ring-offset-white hover:text-slate-600 '>
        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
        <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
@@ -109,7 +109,7 @@ function App() {
        <span>Download the App</span>
        </a>
        <div className=' hidden relative md:flex'>
-       <img src = 'src\assets\app.svg' alt ='app' className='z-20 ml-[82px]'/> 
+       <img src = 'public\assets\app.svg' alt ='app' className='z-20 ml-[82px]'/> 
        <div className='absolute -bottom-6 aspect-square -z-20 border-8 border-amber-400 rounded-full w-[420px] top-20 -left-20'></div>  
        </div>
       </div>      
@@ -128,7 +128,7 @@ function App() {
           <div className='flex flex-col w-[260px]mx-auto relative'>
             <textarea id='content' cols = {20} rows={5}  className='peer rounded-lg border-amber-400 border-2 mt-4 focus:outline-none placeholder-transparent 'placeholder='Your thoughts:' />
             <label htmlFor='content' className='font-semibold absolute -top-4 left-2  -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-7 peer-placeholder-shown:text-slate-900 peer-focus:-top-2 peer-focus:left-2 peer-focus:text-slate-500 dark:peer-focus:text-white'>Your Thoughts:</label></div>
-            <a href='#' className='flex mx-auto py-2 px-3 bg-black text-white  font-bold justify-center ml-1 mt-9 mb-2 focus:outline-none w-1/3 focus-visible:ring-4 shadow-2xl hover:shadow-none transition-shadow ring-slate-400 dark:ring-offset-amber-500 rounded-lg ring-offset-4 ring-offset-white hover:opacity-80 transition-opacity'>    
+            <a href='#' className='flex mx-auto py-2 px-3 bg-black text-white  font-bold justify-center ml-1 mt-9 mb-2 focus:outline-none w-1/3 focus-visible:ring-4 shadow-2xl hover:shadow-none  ring-slate-400 dark:ring-offset-amber-500 rounded-lg ring-offset-4 ring-offset-white hover:opacity-80 transition-opacity'>    
          Sign Up
        </a>
         </form>
